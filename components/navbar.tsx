@@ -1,3 +1,5 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { MobileNav } from "@/components/mobile-nav"

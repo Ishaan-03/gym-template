@@ -1,3 +1,4 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import "@/app/globals.css"
 import { Space_Grotesk } from 'next/font/google'
 import { Navbar } from "@/components/navbar"

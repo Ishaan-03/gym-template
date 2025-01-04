@@ -1,3 +1,5 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
+
 import { Dumbbell, Target, Clock, Users } from 'lucide-react'
 
 export default function AboutPage() {

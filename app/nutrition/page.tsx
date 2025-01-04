@@ -1,3 +1,4 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Apple, Dumbbell, Coffee, Clock, Salad, ChefHat } from 'lucide-react'

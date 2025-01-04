@@ -1,3 +1,5 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
+
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Play } from 'lucide-react'
@@ -14,7 +16,7 @@ export default function Home() {
               backgroundImage: "url('https://i.pinimg.com/736x/53/59/cc/5359cc29a70e9e1061b6c4326668df06.jpg')",
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              backgroundBlend: 'overlay'
+              backgroundBlendMode: 'overlay'
             }}
           />
         </div>

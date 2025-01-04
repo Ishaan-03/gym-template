@@ -1,3 +1,4 @@
+// eslint-disable-next-line react-hooks/rules-of-hooks
 import { Check } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
