@@ -1,5 +1,3 @@
-// eslint-disable-next-line react-hooks/rules-of-hooks
-
 "use client"
 
 import {
@@ -44,7 +42,13 @@ export function StoryModal({ isOpen, onClose, story }: StoryModalProps) {
         </DialogHeader>
         <div className="grid gap-6 py-4 md:grid-cols-2">
           <div className="aspect-square overflow-hidden rounded-lg">
-            <img src={story.image} alt={story.title} className="w-full h-full object-cover" />
+            <img 
+              src={story.image} 
+              alt={story.title} 
+              width={600}
+              height={600}
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="space-y-4">
             <div className="inline-block rounded-full px-3 py-1 text-sm bg-yellow-400/10 text-yellow-400">

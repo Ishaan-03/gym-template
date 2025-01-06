@@ -1,5 +1,3 @@
-// eslint-disable-next-line react-hooks/rules-of-hooks
-
 import { Dumbbell, Target, Clock, Users } from 'lucide-react'
 
 export default function AboutPage() {
@@ -22,6 +20,8 @@ export default function AboutPage() {
                 <img
                   src="https://i.pinimg.com/736x/0a/14/08/0a14089207e0692e5a368691d833e4e3.jpg"
                   alt="Mentality"
+                  width={800}
+                  height={450}
                   className="w-full h-full object-cover"
                 />
               </div>

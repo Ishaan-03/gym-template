@@ -1,5 +1,3 @@
-// eslint-disable-next-line react-hooks/rules-of-hooks
-
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Play } from 'lucide-react'
@@ -61,6 +59,8 @@ export default function Home() {
               <img
                 src="https://i.pinimg.com/736x/15/cc/d1/15ccd1ccb621745f6186da2a32ec6475.jpg"
                 alt="Modern gym equipment"
+                width={800}
+                height={400}
                 className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 flex items-end p-6">
@@ -74,6 +74,8 @@ export default function Home() {
               <img
                 src="https://i.pinimg.com/736x/08/c6/b8/08c6b888f731b90cd63472fc2e8b8ffb.jpg"
                 alt="Professional trainer"
+                width={800}
+                height={400}
                 className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 flex items-end p-6">
@@ -87,6 +89,8 @@ export default function Home() {
               <img
                 src="https://i.pinimg.com/736x/e7/aa/5d/e7aa5da48c4bc613c501458e049fc303.jpg"
                 alt="Training session"
+                width={800}
+                height={400}
                 className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-black/60 flex items-end p-6">
@@ -123,6 +127,8 @@ export default function Home() {
               <img
                 src="https://i.pinimg.com/736x/6a/23/1a/6a231a83d7f6a673b3f239c71dc54529.jpg"
                 alt="Training session"
+                width={800}
+                height={400}
                 className="rounded-lg w-full"
               />
             </div>

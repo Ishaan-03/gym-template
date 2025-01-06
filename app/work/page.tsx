@@ -1,4 +1,3 @@
-// eslint-disable-next-line react-hooks/rules-of-hooks
 "use client"
 
 import { useState } from "react"
@@ -38,6 +37,8 @@ export default function WorkPage() {
                 <img
                   src={item.image}
                   alt={item.title}
+                  width={800}
+                  height={800}
                   className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-6">

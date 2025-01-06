@@ -1,4 +1,3 @@
-// eslint-disable-next-line react-hooks/rules-of-hooks
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Brain, Target, Flame, Trophy, ArrowRight, Zap } from 'lucide-react'
@@ -77,6 +76,8 @@ export default function PowerResetPage() {
                       <img
                         src="https://i.pinimg.com/736x/3a/1b/ae/3a1bae73239b47aa0d13696b2ed65566.jpg"
                         alt="Foundation Reset"
+                        width={800}
+                        height={600}
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -86,6 +87,8 @@ export default function PowerResetPage() {
                       <img
                         src="https://i.pinimg.com/736x/d9/80/4b/d9804b8a28328c46f8e423663377d429.jpg"
                         alt="Power Development"
+                        width={800}
+                        height={600}
                         className="w-full h-auto max-h-full object-contain"
                       />
                     </div>
@@ -95,6 +98,8 @@ export default function PowerResetPage() {
                       <img
                         src="https://i.pinimg.com/736x/56/3a/fe/563afe51321ba0d111f526d4bd5574ab.jpg"
                         alt="Life Integration"
+                        width={800}
+                        height={600}
                         className="w-full h-full object-cover"
                       />
                     </div>
